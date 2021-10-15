@@ -1,0 +1,278 @@
+@media only screen and (min-width: 1000px ) {
+  .logo{
+    z-index: 3;
+    position: relative;
+    border-radius: 70px;
+    height: 400px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* navbar*/
+  #navbar{
+    z-index: 2;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    border-radius: 20px;
+    background-color: rgba(67,84,88,255);
+    width: 50%;
+  }
+    /* text charles*/
+  #charles{
+    font: italic 1.2em "Fira Sans", serif;
+    color:rgba(67,84,88,255);
+    position: relative;
+    bottom: 800px;
+    text-align: center;
+  }
+  .charlesgalerie{
+    font: italic 1.2em "Fira Sans", serif;
+  }
+  /* background picture */
+  .fond{
+    z-index: 0;
+    position:relative;
+    display: block;
+    width:100%;
+    height: 100%;
+    bottom: 610px;
+  }
+  .backgroundaccueil{
+    height: 1050px;
+  }
+  
+  .card{
+    width: 18rem;
+  }
+   .background{
+    background-color: rgba(242,242,243,255)
+  }
+  #bebe,#Grossesse,#Mariage,.margin{
+    margin-top: 10% ;
+  }
+  #showme {
+    margin-top: 6%;
+    left: 80%;
+  }
+  .espace{
+    margin-top: 3% ;
+  }
+  .facebookinstagram{
+    margin-left: 3%;
+  }
+  .LinkInstaface{
+    z-index: 1;
+    color: white;
+    text-decoration:none
+  }
+  #instagram ,.facebookinstagram{
+    z-index: 1;
+    color: white;
+  }
+  .textcontact{
+    margin-top: 35%;
+  }
+  /* text contact*/
+  #text{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  /* bar top */
+  .back{
+    z-index: 1;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.822);
+  }
+  .teste{
+    height: 100%;
+    width: 100%;
+  }
+  
+}
+@media only screen and (min-width: 600px ) and (max-width: 1000px ){
+  .logo{
+    z-index: 3;
+    position: relative;
+    border-radius: 70px;
+    height: 400px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  /* navbar*/
+  #navbar{
+    z-index: 2;
+    position: relative;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    border-radius: 20px;
+    background-color: rgba(67,84,88,255);
+    width: 70%;
+  }
+    /* text charles*/
+  #charles{
+    font: italic 1.2em "Fira Sans", serif;
+    color:rgba(67,84,88,255);
+    position: relative;
+    bottom: 800px;
+    text-align: center;
+  }
+  .charlesgalerie{
+    font: italic 1.2em "Fira Sans", serif;
+  }
+  /* background picture */
+  .fond{
+    z-index: 0;
+    position:relative;
+    display: block;
+    width:100%;
+    height: 1000px;
+    bottom: 600px;
+  }
+  .backgroundaccueil{
+    height: 1050px;
+  }
+  
+  .card{
+    width: 18rem;
+  }
+   .background{
+    background-color: rgba(242,242,243,255)
+  }
+  #bebe,#Grossesse,#Mariage,.margin{
+    margin-top: 10% ;
+  }
+  #showme {
+    margin-top: 6%;
+    left: 80%;
+  }
+  .espace{
+    margin-top: 3% ;
+  }
+  .facebookinstagram{
+    margin-left: 3%;
+  }
+  .LinkInstaface{
+    z-index: 1;
+    color: white;
+    text-decoration:none
+  }
+  #instagram ,.facebookinstagram{
+    z-index: 1;
+    color: white;
+  }
+  .textcontact{
+    margin-top: 35%;
+  }
+  /* text contact*/
+  #text{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  /* bar top */
+  .back{
+    z-index: 1;
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.822);
+  }
+  .teste{
+    height: 100%;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 600px ){
+  .logo{
+    position: relative;
+    margin-left: 10%;
+    border-radius: 50px;
+    margin-top: 3%;
+    
+    height: 150px;
+    width: 150px ;  
+  }
+  /* navbar*/
+  #navbar{
+    position: absolute;
+    margin-top: 30%;
+    right: 100px;
+    border-radius: 20px;
+    background-color: rgba(67,84,88,255);
+    width: 50%;
+  }
+    /* text charles*/
+  #charles{
+    font: italic 1.2em "Fira Sans", serif;
+    color:rgba(67,84,88,255);
+    position: relative;
+    margin-top: 90%;
+    text-align: center;
+  }
+  .charlesgalerie{
+    font: italic 1.2em "Fira Sans", serif;
+  }
+  /* background picture */
+  .fond{
+    width:0%;
+    height: 0%;
+  }
+  .backgroundaccueil{
+    height: 1050px;
+  }
+  /* card galerie*/
+  .card{
+    width: 18rem;
+  }
+   .background{
+    background-color: rgba(242,242,243,255)
+  }
+  #bebe,#Grossesse,#Mariage{
+    margin-top: 45% ;
+  }
+  .margin{
+    margin-top: 60% ;
+
+  }
+   .charlesgalerie{
+    font-size: smaller;
+  }
+  #showme {
+    left: 70%;
+    bottom: 90px;
+  }
+  .espace{
+    margin-top: 3% ;
+  }
+  .facebookinstagram{
+    margin-left: 3%;
+  }
+  .LinkInstaface{
+    color: white;
+    text-decoration:none
+  }
+  #instagram ,.facebookinstagram{
+    color: white;
+  }
+  .textcontact{
+    margin-top: 35%;
+  }
+  /* text contact*/
+  #text{
+    margin-top: 5%;
+    margin-bottom: 5%;
+  }
+  /* bar top */
+  .back{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.822);
+  }
+
+  
+}
+

@@ -1,25 +1,38 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route,Switch } from 'react-router-dom';
+import './styles/App.css';
+import Accueil from './pages/Accueil';
+import Galerie from './pages/Galerie';
+import Tarifs_Prestations from './pages/Tarifs et Prestations';
+import Contact from './pages/Contact';
+import 'bootstrap/dist/css/bootstrap.min.css'
+import NavBar from './coponents/NavBar';
+import LogoCharle from './coponents/LogoCharle'; 
+import './styles/NavBar.scss'
+import InstaFacebook from './coponents/InstaFacebook';
 
-function App() {
+
+
+
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="background">
+      <InstaFacebook/>
+     <LogoCharle/>
+     <NavBar/>
+      <Switch>
+      <Route path="/" exact>
+        <Accueil/>
+      </Route>
+      <Route path="/Galerie" >
+        <Galerie/>
+      </Route>
+      <Route path="/Tarifs_Prestations">
+        <Tarifs_Prestations/>
+      </Route>
+      <Route path="/Contact" >
+        <Contact/>
+      </Route>
+      </Switch>
     </div>
-  );
-}
-
-export default App;
+  )
+};
