@@ -1,3 +1,3 @@
-                                                        Comment déployer son site en local
+                                                     Comment déployer son site en local
 Tout d'abord il faut créer un fichier qui contiendra le dossier du projet on va l'appeler "Projet". Ensuite, il faut ouvrir son navigateur web et aller sur le site officiel de ReactJS pour retrouver la documentation qui est super détailler. On a donc les lignes de commande pour installer React, ensuite on ouvre son terminal et on va sur le dossier Projet enduit on peut rentrer les lignes de codes pour installer React. Une fois l'installation terminer on ouvre son éditeur de texte et on va sur son terminal, on retourne  à l'intérieur du fichier Projet ou on retrouvera React installer on ouvre le fichier et on ouvre le fichier readme.md qui nous aiguillera pour la suite. Lorsqu’on a la ligne de code qui sert à démarrer le site en local on le lance dans le terminal de notre éditeur de texte.
 
