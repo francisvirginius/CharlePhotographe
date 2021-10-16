@@ -70,9 +70,9 @@ function removeClassNameByfiltre() {
         
         img2.src = Mariage3;
         element.appendChild(img2);
-        img.style.marginTop = "38%"; 
-        img1.style.marginTop = "38%"; 
-        img2.style.marginTop = "38%"; 
+        img.style.marginTop = "28%"; 
+        img1.style.marginTop = "28%"; 
+        img2.style.marginTop = "28%"; 
 
 
 }
@@ -97,9 +97,9 @@ function removeClassNameByfiltre() {
         img2.src = Grossesse3;
         element.appendChild(img2);
 
-        img.style.marginTop = "38%"; 
-        img1.style.marginTop = "38%"; 
-        img2.style.marginTop = "38%"; 
+        img.style.marginTop = "28%"; 
+        img1.style.marginTop = "28%"; 
+        img2.style.marginTop = "28%"; 
 
 
   }
@@ -123,9 +123,9 @@ function removeClassNameByfiltre() {
         img2.src = Bebe3;
         element.appendChild(img2);
 
-        img.style.marginTop = "38%"; 
-        img1.style.marginTop = "38%"; 
-        img2.style.marginTop = "38%"; 
+        img.style.marginTop = "28%"; 
+        img1.style.marginTop = "28%"; 
+        img2.style.marginTop = "28%"; 
 
 
   }
@@ -148,9 +148,9 @@ function removeClassNameByfiltre() {
         img2.src = Famille3;
         element.appendChild(img2);
 
-        img.style.marginTop = "38%"; 
-        img1.style.marginTop = "38%"; 
-        img2.style.marginTop = "38%"; 
+        img.style.marginTop = "28%"; 
+        img1.style.marginTop = "28%"; 
+        img2.style.marginTop = "28%"; 
 
   }
   // Btn Baptême
@@ -172,9 +172,9 @@ function removeClassNameByfiltre() {
         img2.src = Baptême3;
         element.appendChild(img2);
 
-        img.style.marginTop = "38%"; 
-        img1.style.marginTop = "38%"; 
-        img2.style.marginTop = "38%"; 
+        img.style.marginTop = "28%"; 
+        img1.style.marginTop = "28%"; 
+        img2.style.marginTop = "28%"; 
 
 
   }
@@ -197,9 +197,9 @@ function removeClassNameByfiltre() {
         img2.src = Couple3;
         element.appendChild(img2);
 
-        img.style.marginTop = "38%"; 
-        img1.style.marginTop = "38%"; 
-        img2.style.marginTop = "38%"; 
+        img.style.marginTop = "28%"; 
+        img1.style.marginTop = "28%"; 
+        img2.style.marginTop = "28%"; 
 
 
   }
